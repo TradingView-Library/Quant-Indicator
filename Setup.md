@@ -1,6 +1,6 @@
-# TradingView SmartAI Indicator
+# TradingView Quant Indicator (Beta)
 
-SmartAI Indicator shows possible market directions for the asset you’re analyzing using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it on your TradingView chart.
+Quant indicator shows possible market directions for the asset you’re analyzing using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it on your TradingView chart.
 
 ## Installation
 
