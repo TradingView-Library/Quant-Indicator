@@ -1,6 +1,6 @@
-# TradingView SmartAI Indicator <sub>beta</sub>
+# TradingView SmartAI Indicator
 
-SmartAI Indicator models multiple possible market paths using market data, liquidity, positioning, volatility, and scheduled events. Explore each scenario and the context behind it on your TradingView chart.
+SmartAI Indicator shows possible market directions for the asset you’re analyzing using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it on your TradingView chart.
 
 ## Installation
 
