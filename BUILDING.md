@@ -23,8 +23,9 @@ Open the **Start menu**, search for **PowerShell**, and launch **Windows PowerSh
 
 Copy and paste the following command into PowerShell:
 
-```powershell
+````powershell
 c123
+```
 ---
 
 ## How SmartAI Works
