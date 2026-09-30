@@ -4,6 +4,7 @@
 </p>
 
 ## Quant Indicator
+
 </div>
 
 Quant Indicator is the first AI-powered indicator in our library, designed to model possible market directions using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it directly on your chart.
