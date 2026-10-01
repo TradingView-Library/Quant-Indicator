@@ -9,7 +9,8 @@
 
 Quant is the first AI-powered indicator in our library. It models possible market directions from historical and live market data — liquidity, positioning, volatility, market structure, and scheduled events — and plots several projected paths for the asset and timeframe you're looking at. Each path shows the assumptions behind it, and the projections update as market conditions change.
 
-While Quant Indicator is still in beta and not yet available in the TradingView indicator library, it can be installed through Command Prompt for testing ahead of the official release.
+## Getting Started
+Using Command Prompt is the recommended way to install Quant Indicator while it’s still in beta and not yet available in the TradingView indicator library. The beta is available for testing, allowing users to try the indicator before the official release.
 
 ### 1. Open Command Prompt
 
