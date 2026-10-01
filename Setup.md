@@ -9,7 +9,7 @@
 
 Quant Indicator is the first AI-powered indicator in our library, designed to model possible market directions using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it directly on your chart.
 
-## Getting Started
+## Installation:
 
 Using Command Prompt is the recommended way to install Quant Indicator while it’s still in beta and not yet available in the TradingView indicator library. The beta is available for testing, allowing users to try the indicator before the official release.
 
@@ -23,7 +23,7 @@ cmd
 
 Then press **Enter**.
 
-### 2. Run the Quant Indicator Installation Command
+### 2. Run the Installation Command
 
 Copy and paste the following command into Command Prompt:
 ```powershell
