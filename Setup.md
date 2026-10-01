@@ -7,7 +7,7 @@
 
 </div>
 
-The first AI-powered indicator in our library, built to bring more market context into your TradingView workflow by combining live market data with liquidity, positioning, volatility, market structure, and upcoming events.
+The first AI-powered indicator in our library, designed to bring more market context into TradingView. It analyzes live market data and changing conditions to show several ways a setup may develop over the timeframe you select, with the supporting data and context available directly on the chart.
 
 ## Getting Started
 
