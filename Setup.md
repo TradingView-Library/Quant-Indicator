@@ -3,7 +3,7 @@
   <img src="logotw.png" alt="TradingView" width="580">
 </p>
 
-# Quant Indicator™
+# Quant Indicator
 
 </div>
 
