@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <img src="logotw.png" alt="TradingView" width="580">
+  <img src="Tradingview.png" alt="TradingView" width="580">
 </p>
 
 ## Quant Indicator
