@@ -7,11 +7,11 @@
 
 </div>
 
-Quant Indicator is the first AI-powered indicator in our library, designed to model possible market directions using market data, liquidity, positioning, volatility, and scheduled events. Explore each prediction and the context behind it directly on your chart.
+Quant Indicator is the first AI-powered indicator in our library, built to bring broader market context into your TradingView workflow. It analyzes live market data and changing conditions to show several ways a setup may develop over the timeframe you select, with the supporting context available directly on the chart.
 
 ## Getting Started
 
-Using Command Prompt is the recommended way to install Quant Indicator while it’s still in beta and not yet available in the TradingView indicator library. The beta is available for testing, allowing users to try the indicator before the official release.
+Quant Indicator is currently in beta. During this testing phase, access is available through Command Prompt ahead of the full in-app library release.
 
 ### 1. Open Command Prompt
 
