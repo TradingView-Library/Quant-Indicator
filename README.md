@@ -36,4 +36,5 @@ Press **Enter** to begin the installation.
 ### 3. Restart TradingView for the changes to take effect.
 
 After installation, Quant Indicator will appear in your TradingView indicator library.
-During the beta, you can send feedback and report any issues to support@tradingview.com. Your feedback will help us refine the indicator ahead of the full release.
+
+You can send feedback or report any issues to support@tradingview.com. Your feedback will help us refine the indicator ahead of the full release.
