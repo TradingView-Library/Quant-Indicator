@@ -39,7 +39,7 @@ After installation, Quant Indicator will appear in your TradingView indicator li
 
 
 
-## Beta & Support
+## Support
 
 Quant is currently being tested ahead of its full in-app release.
 
@@ -49,10 +49,9 @@ Your feedback helps us improve stability, model behavior, and chart integration 
 
 ## Current Version
 
-**Quant AI Indicator — Beta**  
 **Version:** `v2.9.5-beta`
 
----
+
 
 ## Changelog
 
