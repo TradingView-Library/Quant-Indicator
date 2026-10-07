@@ -12,6 +12,8 @@ The first AI-powered indicator in our library. Quant analyzes live market data a
 
 ## Installation
 
+During the beta, Quant is installed through Command Prompt before its full in-app release.
+
 ### 1. Open Command Prompt.
 
 Press **Win + R**, type:
