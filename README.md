@@ -46,8 +46,6 @@ After installation, Quant Indicator will appear in your TradingView indicator li
 
 ## Support
 
-Quant is currently being tested ahead of its full in-app release.
-
 If you encounter an issue or would like to share feedback, contact us at [support@tradingview.com](mailto:support@tradingview.com).
 
 Your feedback helps us improve stability, model behavior, and chart integration throughout the beta.
