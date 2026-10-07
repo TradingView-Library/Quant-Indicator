@@ -8,9 +8,9 @@
 
 </div>
 
-The first AI-powered indicator in our library, built to bring more market context directly into TradingView. It analyzes live market data and changing conditions to show several ways a setup may develop over the timeframe you select. Each view is displayed on the chart with the data and context behind it.
+The first AI-powered indicator in our library. Quant analyzes live market data and changing conditions to model several ways a setup may develop over the selected timeframe. Each view is displayed directly on the chart, together with the data and context behind it.
 
-## Getting Started
+## Installation
 
 ### 1. Open Command Prompt.
 
@@ -22,7 +22,7 @@ cmd
 
 Then press **Enter**.
 
-### 2. Run the Quant Indicator Installation Command.
+### 2. Install Quant Indicator.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
