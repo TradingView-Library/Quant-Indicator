@@ -8,11 +8,11 @@
 
 </div>
 
-The first AI-powered indicator in our library. Quant analyzes live market data and changing conditions to model several ways a setup may develop over the selected timeframe. Each view is displayed directly on the chart, together with the data and context behind it.
+The first AI-powered indicator in our library. Quant analyzes live market data and changing conditions to model several ways a setup may develop over the selected timeframe. Early beta access is currently available through GitHub ahead of the full in-app release.
 
 ## Installation
 
-During the beta, Quant is installed through Command Prompt before its full in-app release.
+Follow the steps below to install the Quant Indicator and its required dependencies using Command Prompt.
 
 ### 1. Open Command Prompt.
 
