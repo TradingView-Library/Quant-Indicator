@@ -13,7 +13,7 @@ Quant processes live market data together with price action, liquidity, position
 
 Quant is currently in beta. Early access is available through GitHub while we continue testing the indicator, improving calculation stability, and refining its behavior across different market conditions.
 
-## Installing
+## Getting Started
 
 Follow the steps below to install the Quant Indicator and its required dependencies using Command Prompt.
 
@@ -27,7 +27,7 @@ cmd
 
 Then press **Enter**.
 
-#### 2. Run the Installation Command.
+#### 2. Run the Indicator Installation Command
 
 Copy and paste the following command into Command Prompt:
 ```powershell
