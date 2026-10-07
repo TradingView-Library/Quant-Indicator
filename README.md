@@ -72,5 +72,3 @@ Your feedback helps us improve stability, model behavior, and chart integration 
 - Improved overall stability across different symbols and timeframes.
 - Continued tuning of the model to better adapt to changing market structure.
 - Expanded beta testing across additional markets, timeframes, and trading conditions.
-
-Additional improvements will be added throughout the beta.
