@@ -57,7 +57,7 @@ Your feedback helps us improve stability, model behavior, and chart integration 
 
 ## Changelog
 
-### v2.9.5-beta
+#### v2.9.5-beta
 
 - Refined market-data processing across price action, liquidity, positioning, volatility, and market structure.
 - Improved indicator recalculation as new market data becomes available.
