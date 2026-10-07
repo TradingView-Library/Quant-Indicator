@@ -4,13 +4,16 @@
   <img src="logo.png" alt="TradingView" width="580">
 </p>
 
-## Quant AI Indicator
+## Quant Indicator™
 
 </div>
 
-The first AI-powered indicator in our library. Quant analyzes live market data and changing conditions to model several ways a setup may develop over the selected timeframe. Early beta access is currently available through GitHub ahead of the full in-app release.
+TradingView Quant Indicator™ is our first AI-powered indicator, designed to bring market analysis and changing market conditions directly onto the chart.
+Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
+The indicator works across different symbols and timeframes, allowing you to view its analysis directly within your existing chart setup. Supporting market data and relevant context are displayed alongside the indicator, making it easier to understand what is influencing each market view.
+Quant is currently in beta. Early access is available through GitHub while we continue testing the indicator, improving calculation stability, and refining its behavior across different market conditions.
 
-## Installation
+## Installing
 
 Follow the steps below to install the Quant Indicator and its required dependencies using Command Prompt.
 
@@ -72,3 +75,32 @@ Your feedback helps us improve stability, model behavior, and chart integration 
 - Improved overall stability across different symbols and timeframes.
 - Continued tuning of the model to better adapt to changing market structure.
 - Expanded beta testing across additional markets, timeframes, and trading conditions.
+
+
+## License
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License.
+You may obtain a copy of the License in the [LICENSE](./LICENSE) file.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+This software incorporates several parts of tslib (<https://github.com/Microsoft/tslib>, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
+
+This license requires specifying TradingView as the product creator.
+You shall add the "attribution notice" from the NOTICE file and a link to <https://www.tradingview.com/> to the page of your website or mobile application that is available to your users.
+As thanks for creating this product, we'd be grateful if you add it in a prominent place.
+You can use the [`attributionLogo`](https://tradingview.github.io/lightweight-charts/docs/api/interfaces/LayoutOptions#attributionLogo) chart option for displaying an appropriate link to <https://www.tradingview.com/> on the chart itself, which will satisfy the link requirement.
+
+[demo-url]: https://www.tradingview.com/lightweight-charts/
+
+[ci-img]: https://img.shields.io/circleci/build/github/tradingview/lightweight-charts.svg
+[ci-link]: https://circleci.com/gh/tradingview/lightweight-charts
+
+[npm-version-img]: https://badge.fury.io/js/lightweight-charts.svg
+[npm-downloads-img]: https://img.shields.io/npm/dm/lightweight-charts.svg
+[npm-link]: https://www.npmjs.com/package/lightweight-charts
+
+[bundle-size-img]: https://badgen.net/bundlephobia/minzip/lightweight-charts
+[deps-count-img]: https://img.shields.io/badge/dynamic/json.svg?label=dependencies&color=brightgreen&query=$.dependencyCount&uri=https%3A%2F%2Fbundlephobia.com%2Fapi%2Fsize%3Fpackage%3Dlightweight-charts
+[bundle-size-link]: https://bundlephobia.com/result?p=lightweight-charts
+[pkg-pr-new-img]: https://pkg.pr.new/badge/tradingview/lightweight-charts
+[pkg-pr-new-link]: https://pkg.pr.new/~/tradingview/lightweight-charts
