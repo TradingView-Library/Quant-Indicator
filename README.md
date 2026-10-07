@@ -10,7 +10,9 @@
 
 TradingView Quant Indicator™ is our first AI-powered indicator, designed to bring market analysis and changing market conditions directly onto the chart.
 Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
+
 The indicator works across different symbols and timeframes, allowing you to view its analysis directly within your existing chart setup. Supporting market data and relevant context are displayed alongside the indicator, making it easier to understand what is influencing each market view.
+
 Quant is currently in beta. Early access is available through GitHub while we continue testing the indicator, improving calculation stability, and refining its behavior across different market conditions.
 
 ## Installing
