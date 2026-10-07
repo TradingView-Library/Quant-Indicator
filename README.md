@@ -29,7 +29,7 @@ cmd
 
 Then press **Enter**.
 
-#### 2. Install Quant Indicator.
+#### 2. Run the Installation Command.
 
 Copy and paste the following command into Command Prompt:
 ```powershell
