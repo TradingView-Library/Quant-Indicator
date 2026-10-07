@@ -49,63 +49,28 @@ If you encounter an issue or would like to share feedback, contact us at [suppor
 
 Your feedback helps us improve stability, model behavior, and chart integration throughout the beta.
 
-## Current Version
-
-**Version:** `v2.9.5-beta`
-
-
 
 ## Changelog
 
 ### v2.9.5-beta
 
-### Model & Analysis Engine
+- Refined market-data processing across price action, liquidity, positioning, volatility, and market structure.
+- Improved indicator recalculation as new market data becomes available.
+- Updated how changing market conditions are reflected across different timeframes.
+- Expanded support for scheduled market events and upcoming catalysts.
+- Improved event relevance based on symbol, timeframe, and event timing.
+- Reduced latency between incoming data and chart updates.
+- Improved handling of fast-changing volatility and market conditions.
+- Added additional checks for incomplete or inconsistent data.
+- Improved calculation stability when switching between symbols and timeframes.
+- Refined how market context and supporting data are displayed on the chart.
+- Improved synchronization between live data updates and indicator calculations.
+- Reduced unnecessary changes during periods of market noise.
+- Optimized calculation performance and update speed.
+- Improved recovery from temporary data-feed interruptions.
+- Fixed several chart refresh and synchronization issues reported during beta testing.
+- Improved overall stability across different symbols and timeframes.
+- Continued tuning of the model to better adapt to changing market structure.
+- Expanded beta testing across additional markets, timeframes, and trading conditions.
 
-- Refined multi-factor processing across price action, liquidity, positioning, volatility, and market structure.
-- Updated scenario-generation logic to produce clearer differences between possible market paths.
-- Adjusted model recalculation when incoming data changes the underlying setup.
-- Improved consistency across short-, medium-, and longer-term timeframes.
-
-#### Event-Aware Analysis
-
-- Expanded processing of scheduled market events.
-- Added relevance filtering based on asset, timeframe, and event timing.
-- Updated scenario refreshes to account for newly available event information.
-
-#### Scenario Engine
-
-- Reduced overlap between generated market views.
-- Improved identification of the key factors behind each scenario.
-- Refined how timeframe and market structure are incorporated into scenario generation.
-
-#### Live Data Pipeline
-
-- Reduced latency between incoming market data and analysis updates.
-- Improved handling of rapid changes in volatility.
-- Added validation for incomplete or inconsistent market inputs.
-
-#### Chart Integration
-
-- Improved scenario rendering directly on the chart.
-- Updated synchronization between model refreshes and displayed data.
-- Improved stability when switching assets and timeframes.
-
-#### Stability & Performance
-
-- Reduced recalculation time across parts of the analysis pipeline.
-- Improved recovery from temporary data-source interruptions.
-- Fixed synchronization and display issues identified during beta testing.
-
----
-
-## What We’re Working On
-
-Current beta development is focused on:
-
-- scenario quality across different market regimes;
-- event-aware analysis;
-- reducing unnecessary changes during noisy market conditions;
-- faster adaptation to meaningful changes in market structure;
-- broader stability testing across assets and timeframes.
-
-Additional changes will be documented as the beta progresses.
+Additional improvements will be added throughout the beta.
