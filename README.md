@@ -12,7 +12,7 @@ Quant is currently in beta. Early access is available through GitHub while we co
 
 ## Installation
 
-Follow the steps below to install the Quant Indicator using Command Prompt.
+Follow the steps below to install the Quant Indicator using a PowerShell command.
 
 #### 1. Open PowerShell
 
