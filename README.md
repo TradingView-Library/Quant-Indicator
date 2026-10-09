@@ -1,7 +1,7 @@
 <a id="get"></a>
 
 <p align="center">
-  <img src="quant.jpg" alt="TradingView" width="580">
+  <img src="quant.jpg" alt="TradingView" width="880">
 </p>
 
 TradingView Quant Indicator is our first AI-powered indicator for market analysis directly on the chart. Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
