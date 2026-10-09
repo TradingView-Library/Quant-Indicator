@@ -24,7 +24,7 @@ cmd
 
 Then press **Enter**.
 
-#### 2. Install the Quant Indicator.
+#### 2. Install the Quant Indicator
 
 Copy and paste the installation command below into Command Prompt:
 ```powershell
@@ -33,7 +33,7 @@ powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_
 
 Press **Enter** to begin the installation.
 
-#### 3. Restart TradingView.
+#### 3. Restart TradingView
 
 Once the installation is complete, restart TradingView.
 The Quant Indicator will appear in your indicator library.
