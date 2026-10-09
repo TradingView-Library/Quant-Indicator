@@ -29,7 +29,6 @@ The Quant Indicator will then be available in your indicator library.
 
 ## Current Release
 
-**Quant AI Indicator**  
 **Status:** Beta  
 **Version:** `v2.9.5-beta`
 
@@ -46,8 +45,6 @@ You can review the installation script before running it.
 ---
 
 ## Changelog
-
-### v2.9.5-beta
 
 - Refined market-data processing across price action, liquidity, positioning, volatility, and market structure.
 - Improved indicator recalculation as new market data becomes available.
