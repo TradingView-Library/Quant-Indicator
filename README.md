@@ -6,7 +6,7 @@
 
 TradingView Quant™ is our first AI-powered indicator. It brings market analysis directly to the chart, evaluates current market conditions, and shows several potential market directions for the selected timeframe.
 
-## Installation
+## Getting Started
 
 Follow the steps below to install the Quant Indicator using a PowerShell command.
 
@@ -24,7 +24,7 @@ irm https://github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master
 
 #### 3. Restart TradingView
 
-Once the installation is complete, restart TradingView. 
+Once the installation is complete, restart TradingView. <br>
 The Quant Indicator will then be available in your indicator library.
 
 ## Current Release
