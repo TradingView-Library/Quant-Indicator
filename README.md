@@ -25,18 +25,7 @@ The Quant Indicator will then be available in your indicator library.
 
 ## Current Release
 
-**Status:** Beta  
 **Version:** `v2.9.5-beta`
-
----
-
-## Installation & Security
-
-Only use installation commands published in this repository.
-
-The installer does not require your TradingView password, API keys, recovery phrases, payment information, or other sensitive credentials.
-
-You can review the installation script before running it.
 
 ---
 
