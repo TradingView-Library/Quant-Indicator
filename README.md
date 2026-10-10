@@ -4,11 +4,7 @@
   <img src="quant.jpg" alt="TradingView" width="880">
 </p>
 
-Quant is our first AI-powered indicator. It analyzes current market conditions to show how the market could develop over the selected timeframe.
-
-## Getting Started
-
-Follow the steps below to install the Quant Indicator using a PowerShell command.
+## Installation
 
 #### 1. Open PowerShell
 
