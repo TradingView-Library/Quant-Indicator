@@ -4,7 +4,7 @@
   <img src="quant.jpg" alt="TradingView" width="880">
 </p>
 
-TradingView Quant™ is our first AI-powered indicator. It brings market analysis directly to the chart, evaluates current market conditions, and shows several potential market directions for the selected timeframe.
+Quant is our first AI-powered indicator. It analyzes current market conditions to show how the market could develop over the selected timeframe.
 
 ## Getting Started
 
