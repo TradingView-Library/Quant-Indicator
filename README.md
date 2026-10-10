@@ -10,7 +10,7 @@
 
 Press **Win + R**, type `PowerShell`, and press **Enter**.
 
-#### 2. Install the Quant Indicator
+#### 2. Run the Installation Command
 
 Copy and paste the installation command below into the PowerShell window:
 
