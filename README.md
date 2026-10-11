@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v2.9.5-blue" alt="version">
-  <img src="https://img.shields.io/badge/beta%20testers-7,4k-brightgreen?logo=github" alt="beta testers">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
+<img src="https://img.shields.io/badge/version-v2.9.5-blue" alt="version">
+<img src="https://img.shields.io/badge/beta%20testers-7.4K-brightgreen?logo=github" alt="beta testers">
+<img src="https://img.shields.io/badge/license-MIT-green" alt="license">
 </p>
 Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to calculate possible price scenarios for a selected timeframe.
 <br><br>
