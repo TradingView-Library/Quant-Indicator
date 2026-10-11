@@ -3,7 +3,6 @@
 <p align="center">
   <img src="quant.jpg" alt="TradingView" width="880">
 </p>
-
 <p align="center">
 <img src="https://img.shields.io/badge/version-v2.9.5-blue" alt="version">
 <img src="https://img.shields.io/badge/beta%20testers-7.4K-brightgreen?logo=github" alt="beta testers">
