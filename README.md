@@ -12,7 +12,7 @@ Quant is our first AI-powered indicator, developed using historical market and t
 
 ---
 
-## Installation
+## Getting Started
 
 #### 1. Open PowerShell
 
