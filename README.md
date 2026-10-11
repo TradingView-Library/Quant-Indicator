@@ -50,3 +50,5 @@ The Quant Indicator will then be available in your indicator library.
 - Fixed delayed chart updates after periods of low trading activity.
 - Corrected handling of incomplete candles and partially loaded charts.
 - Fixed data synchronization after temporary connection interruptions.
+- Fixed an issue where scenario lines could remain visible after removing the indicator.
+- Fixed duplicate scenario plots appearing after reloading a chart.
