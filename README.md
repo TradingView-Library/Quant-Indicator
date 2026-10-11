@@ -7,10 +7,9 @@
 <p align="center">
   <img src="https://img.shields.io/badge/version-v2.9.5-blue" alt="version">
   <img src="https://img.shields.io/badge/beta%20testers-7%2C451-brightgreen?logo=github" alt="beta testers">
-  <img src="https://img.shields.io/badge/%E2%96%B2%20%2B943-today-brightgreen" alt="growth today">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
 </p>
-Quant is our first AI-powered indicator, trained on historical trading data from professional market participants. It continuously analyzes live market conditions to identify the forces driving price and model the market’s next potential move for your selected timeframe.
+Quant is our first AI-powered indicator for TradingView. It uses historical market data and current inputs, including price action, liquidity, positioning, and volatility, to generate possible price scenarios for a selected timeframe.
 
 ## Getting Started
 
@@ -35,13 +34,23 @@ The Quant Indicator will then be available in your indicator library.
 
 ## Changelog
 
-- Refined market-data processing across price action, liquidity, positioning, volatility, and market structure.
-- Improved indicator recalculation as new market data becomes available.
-- Expanded processing of scheduled market events.
-- Improved handling of rapidly changing market conditions.
-- Reduced latency between incoming data and chart updates.
-- Added additional validation for incomplete or inconsistent market inputs.
-- Improved stability when switching symbols and timeframes.
-- Improved synchronization between indicator calculations and chart updates.
-- Reduced unnecessary recalculations during periods of market noise.
-- Fixed chart refresh and synchronization issues identified during beta testing.
+### v2.9.5 Beta
+
+- Updated market data processing for price action, liquidity, positioning, volatility, and market structure.
+- Added support for scheduled economic events and upcoming market releases.
+- Adjusted how historical data is processed across different chart timeframes.
+- Revised scenario calculations to account for changes in market conditions.
+- Added checks for missing, delayed, and inconsistent data inputs.
+- Updated volatility calculations during periods of sharp price movement.
+- Adjusted liquidity analysis to account for changes in market depth.
+- Revised positioning data processing for instruments with limited historical coverage.
+- Reduced redundant calculations when new market data arrives.
+- Fixed an issue where switching symbols could retain calculations from the previous chart.
+- Corrected timeframe synchronization after changing chart intervals.
+- Fixed delayed indicator updates following periods of low market activity.
+- Updated handling of incomplete candles and partially loaded historical data.
+- Reduced unnecessary chart refreshes when incoming data remains unchanged.
+- Fixed occasional discrepancies between scenario calculations and displayed chart values.
+- Adjusted indicator initialization when opening a new chart.
+- Corrected data handling after temporary connection interruptions.
+- Fixed several issues reported during beta testing.
