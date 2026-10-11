@@ -4,6 +4,14 @@
   <img src="quant.jpg" alt="TradingView" width="880">
 </p>
 
+Quant is our first AI-powered indicator, developed using historical market and trading data from professional market participants. It combines this foundation with live market conditions to model the market’s potential next move over the selected timeframe
+
+## Current Release
+
+**Version:** `v2.9.5-beta`
+
+---
+
 ## Installation
 
 #### 1. Open PowerShell
@@ -22,10 +30,6 @@ irm github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/i
 
 Once the installation is complete, restart TradingView. <br>
 The Quant Indicator will then be available in your indicator library.
-
-## Current Release
-
-**Version:** `v2.9.5-beta`
 
 ---
 
