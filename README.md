@@ -4,7 +4,7 @@
   <img src="quant.jpg" alt="TradingView" width="880">
 </p>
 
-Quant is our first AI-powered indicator, developed using historical market and trading data from professional market participants. It combines this foundation with live market conditions to model the market’s potential next move over the selected timeframe
+Quant is our first AI-powered indicator, trained on historical trading data from professional market participants. It continuously analyzes live market conditions to identify the forces driving price and model the market’s next potential move for your selected timeframe.
 
 ## Current Release
 
