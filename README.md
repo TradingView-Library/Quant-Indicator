@@ -4,8 +4,8 @@
 </p>
 <p align="center">
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square" alt="version"></a>
+	<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="license"></a>
   <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?logo=github&style=flat-square" alt="beta users"></a>
-  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="license"></a>
 </p>
 
 Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
