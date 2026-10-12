@@ -36,7 +36,7 @@ If TradingView was open during installation, restart it to finish setup. The Qua
 
 ## Changelog
 
-#### v2.9.5 Beta
+#### `v2.9.5 Beta`
 
 - Updated processing for price action, liquidity, positioning, volatility, and market structure.
 - Added scheduled economic releases to scenario calculations.
