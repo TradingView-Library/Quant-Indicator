@@ -29,8 +29,7 @@ irm github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/i
 
 #### 3. Restart TradingView
 
-Once the installation is complete, restart TradingView. <br>
-The Quant Indicator will then be available in your indicator library.
+Restart TradingView to finish setup. The Quant Indicator will appear in your indicator library.
 
 ----
 
