@@ -1,5 +1,5 @@
 <a id="get"></a>
-<a href="#install">
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install">
 <p align="center">
   <img src="quant.jpg" alt="TradingView" width="880">
 </p></a>
