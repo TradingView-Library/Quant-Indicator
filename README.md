@@ -1,8 +1,8 @@
 <a id="get"></a>
-
+<a href="#install">
 <p align="center">
   <img src="quant.jpg" alt="TradingView" width="880">
-</p>
+</p></a>
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.9.5-blue" alt="version">
   <img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?logo=github" alt="beta testers">
