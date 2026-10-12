@@ -1,8 +1,7 @@
 <a id="get"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install">
 <p align="center">
-  <img src="quant.jpg" alt="TradingView" width="880">
-</p></a>
+  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant.jpg" alt="TradingView" width="880"></a>
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.9.5-blue" alt="version">
   <img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?logo=github" alt="beta testers">
