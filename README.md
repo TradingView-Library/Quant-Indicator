@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
 </p>
 
-Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to calculate possible price scenarios for a selected timeframe.
+Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to identify the direction with the strongest support for a selected timeframe.
 <br><br>
 The model also accounts for upcoming economic releases and events that may affect the selected asset. Quant displays its analysis directly on the TradingView chart and recalculates it as new data arrives. Traders can review the data and signals behind the current direction, see what could cause the model to reassess its conclusion, and follow changes without switching between multiple tools.
 
