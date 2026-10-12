@@ -13,7 +13,8 @@ Quant is our first AI-powered indicator for TradingView. It analyzes historical 
 <br><br>
 The model also accounts for upcoming economic releases and events that may affect the selected asset. Quant displays its analysis directly on the TradingView chart and recalculates it as new data arrives. Traders can review the data and signals behind the current direction, see what could cause the model to reassess its conclusion, and follow changes without switching between multiple tools.
 
-## Getting Started
+## Install
+The installer supports Windows, macOS, and Linux.
 
 #### 1. Open PowerShell
 
@@ -29,7 +30,7 @@ irm github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/debug/i
 
 #### 3. Restart TradingView
 
-Restart TradingView to finish setup. The Quant Indicator will appear in your indicator library.
+If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
 
 ----
 
