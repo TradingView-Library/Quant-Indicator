@@ -19,7 +19,7 @@ The model also considers upcoming economic releases and other events that may af
 </p>
 
 ## Install
-The installer supports Windows, macOS, and Linux. The TradingView Desktop app must be installed before setup.
+The installer supports Windows, macOS, and Linux. The TradingView Desktop app must be installed before installing the Quant indicator.
 
 #### 1. Open PowerShell
 
