@@ -33,9 +33,9 @@ Paste the installation command below into the PowerShell window:
 irm -useb github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/scripts/install.ps1 | iex
 ```
 
-#### 3. Restart TradingView
+#### 3. Restart the TradingView Desktop App
 
-If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
+If the TradingView desktop app was open during installation, restart it to complete setup. The Quant indicator will then appear in your indicator library.
 
 ----
 
