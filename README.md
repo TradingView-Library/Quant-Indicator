@@ -8,7 +8,7 @@
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
 </p>
 
-Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
+Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the asset and timeframe you select.
 <br><br>
 The model also considers upcoming economic releases and other events that may affect the asset. The forecast appears directly on the TradingView chart and updates as new data comes in. You can see the signals behind it and what would cause the model to revise its conclusion.
 <p>
