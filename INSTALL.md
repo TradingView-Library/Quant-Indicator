@@ -8,9 +8,7 @@
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/early%20members-7.4k-brightgreen?style=flat-square&logo=github" alt="early members"></a>
 </p>
 
-Quant is an AI indicator currently in early access. It weighs 47 market factors, including price action, liquidity, positioning and upcoming events, and gives a directional forecast for the asset and timeframe you pick.
-<br>
-Each forecast lists the signals that drove it. Open any signal to see the underlying data.
+Quant is an AI indicator currently in early access. It weighs 47 market factors, including price action, liquidity, positioning and upcoming events, and gives a directional forecast for the asset and timeframe you pick. Each forecast lists the signals that drove it. Open any signal to see the underlying data.
 
 ## Installation
 Installation is supported on Windows, macOS and Linux. Make sure TradingView Desktop is installed before running the command below.
