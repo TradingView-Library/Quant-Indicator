@@ -5,7 +5,7 @@
 <p align="center">
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square&logo=tradingview" alt="version"></a>
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=opensourceinitiative" alt="license"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-6.8k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7591-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
 </p>
 
 Quant is our first AI-powered indicator for TradingView. It analyzes historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the asset and timeframe you select.
@@ -19,7 +19,7 @@ The model also considers upcoming economic releases and other events that may af
 </p>
 
 ## Install
-The installer supports Windows, macOS, and Linux. The TradingView Desktop app must be installed before installing the Quant indicator.
+The installer supports Windows, macOS, and Linux. TradingView Desktop must be installed before installing the Quant indicator.
 
 #### 1. Open PowerShell
 
