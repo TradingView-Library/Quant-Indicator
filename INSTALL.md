@@ -13,7 +13,7 @@ Quant is an AI indicator currently in early access. It weighs 47 market factors,
 Each forecast lists the signals that drove it. Open any signal to see the underlying data.
 
 ## Installation
-The installer supports Windows, macOS and Linux. TradingView Desktop must be installed first.
+Installation is supported on Windows, macOS and Linux. Make sure TradingView Desktop is installed before running the command below.
 
 #### 1. Open PowerShell
 
