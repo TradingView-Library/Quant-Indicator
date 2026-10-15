@@ -41,8 +41,6 @@ If the TradingView desktop app was open during installation, restart it to compl
 
 ## Changelog
 
-#### `v2.9.5 Beta`
-
 - Updated processing for price action, liquidity, positioning, volatility, and market structure.
 - Added scheduled economic releases to scenario calculations.
 - Changed how historical data is loaded when switching timeframes.
