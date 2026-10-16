@@ -8,7 +8,7 @@
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
 </p>
 
-Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
+Quant is our first indicator built on a machine learning model. You pick an asset and a timeframe, and the model analyzes the chart, weighs the known upcoming events, and marks where price is most likely to head next, with the signals behind it shown alongside.
 
 ## Installation
 The recommended way to install the Quant indicator on Windows is through Command Prompt. The command installs all required dependencies and completes the setup in one step.
