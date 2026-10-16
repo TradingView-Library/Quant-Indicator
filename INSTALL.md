@@ -27,9 +27,10 @@ powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_
 
 If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
 
-----
 
-  
+# Support
+If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
+
 # Contributors
 
 Built with feedback from our beta testers. Thank you to everyone who helped us improve it.
