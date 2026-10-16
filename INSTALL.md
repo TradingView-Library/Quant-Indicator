@@ -10,8 +10,8 @@
 
 Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
 
-# Install
-The installer supports Windows, macOS, and Linux. TradingView Desktop must be installed before setup.
+## Installation
+Requires TradingView Desktop app. Setup takes a single command.
 
 ### 1. Open Command Prompt.
 Press **Win + R**, type `cmd`, press **Enter**.
@@ -30,6 +30,13 @@ If TradingView was open during installation, restart it to finish setup. The Qua
 
 # Support
 If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
+
+# Support
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/LICENSE">License</a>. You may obtain a copy of the License in the LICENSE file. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+This software incorporates several parts of tslib (https://github.com/Microsoft/tslib, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
+
+This license requires specifying TradingView as the product creator. You shall add the "attribution notice" from the NOTICE file and a link to https://www.tradingview.com/ to the page of your website or mobile application that is available to your users. As thanks for creating this product, we'd be grateful if you add it in a prominent place. You can use the attributionLogo chart option for displaying an appropriate link to https://www.tradingview.com/ on the chart itself, which will satisfy the link requirement.
 
 # Contributors
 
