@@ -2,26 +2,18 @@
 <p align="center">
   <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant-logo.jpg" alt="TradingView" width="738"></a>
 </p>
-<p align="center">
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square" alt="version"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="license"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square" alt="beta users"></a>
-</p>
 
-Quant is an AI indicator for TradingView that analyzes market conditions and shows where price is most likely to move next for the asset and timeframe you select.
+Quant is an AI indicator for TradingView that produces a directional forecast for the market you're analyzing. Each forecast includes the signals behind the model's conclusion, so you can see what influenced its view.
 
-It combines chart data, historical market behavior, liquidity, positioning, volatility, market structure, and known upcoming events. Each forecast is shown with the signals behind it, so you can see what influenced the model's conclusion.
+The indicator works across different trading horizons, from intraday setups to weekly and monthly charts.
 
 ## How It Works
 
-Choose an asset and a timeframe. Quant analyzes the current setup, compares it with historical market behavior, and takes known upcoming events into account.
+Choose an asset and a timeframe. Quant evaluates 47 market factors, including price action, liquidity, positioning, volatility, market structure, historical data, and known upcoming events.
 
-It then produces a directional forecast directly on the chart. The signals behind that forecast are shown alongside it, giving you a clear view of what the model is responding to and why it reached that conclusion.
-
-The indicator works from intraday setups to weekly and monthly charts.
+It weighs those inputs together and places the resulting forecast directly on the chart. You can inspect the signals behind the conclusion and open them to review the underlying data.
 
 ## Install
-
 ### Requirements
 
 - TradingView Desktop
