@@ -11,7 +11,7 @@
 Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
 
 ## Installation
-Requires TradingView Desktop app. Setup takes a single command.
+Setup takes a single command in Command Prompt.
 
 ### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
