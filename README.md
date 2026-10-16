@@ -27,7 +27,7 @@ The indicator works from intraday setups to weekly and monthly charts.
 - TradingView Desktop
 - Windows
 - Internet connection
-- 
+  
 ### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
 
