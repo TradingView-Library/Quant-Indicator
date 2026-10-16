@@ -31,7 +31,7 @@ If TradingView was open during installation, restart it to finish setup. The Qua
 # Support
 If you run into an issue or have feedback, open an issue on GitHub or write to support@tradingview.com.
 
-# Support
+# License
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/LICENSE">License</a>. You may obtain a copy of the License in the LICENSE file. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 This software incorporates several parts of tslib (https://github.com/Microsoft/tslib, (c) Microsoft Corporation) that are covered by BSD Zero Clause License.
