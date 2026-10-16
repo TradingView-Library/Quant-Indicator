@@ -13,7 +13,7 @@ Quant is our first indicator built on a machine learning model. It analyzes upco
 ## Installation
 Requires TradingView Desktop app. Setup takes a single command.
 
-### 1. Open Command Prompt.
+### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
 
 ### 2. Run the Installation Command
