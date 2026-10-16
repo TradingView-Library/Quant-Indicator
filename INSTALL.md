@@ -11,7 +11,7 @@ The indicator works across different trading horizons, from intraday setups to w
 
 Choose an asset and a timeframe. Quant evaluates 47 market factors, including price action, liquidity, positioning, volatility, market structure, historical data, and known upcoming events.
 
-It weighs those inputs together and places the resulting forecast directly on the chart. You can inspect the signals behind the conclusion and open them to review the underlying data.
+It weighs those inputs together and displays the forecast directly on the chart. You can inspect the signals behind the conclusion and open them to review the underlying data.
 
 ## Install
 ### Requirements
