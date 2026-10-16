@@ -1,25 +1,13 @@
 <a id="get"></a>
 <p align="center">
-  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant-logo.jpg" alt="TradingView" width="738"></a>
+  <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant.jpg" alt="TradingView" width="738"></a>
 </p>
 
-Quant is an AI indicator for TradingView that produces a directional forecast for the market you're analyzing. Each forecast includes the signals behind the model's conclusion, so you can see what influenced its view.
-
-The indicator works across different trading horizons, from intraday setups to weekly and monthly charts.
-
-## How It Works
-
-Choose an asset and a timeframe. Quant evaluates 47 market factors, including price action, liquidity, positioning, volatility, market structure, historical data, and known upcoming events.
-
-It weighs those inputs together and displays the forecast directly on the chart. You can inspect the signals behind the conclusion and open them to review the underlying data.
+TradingView Quant Indicator is our first AI indicator for market analysis directly on the chart. It evaluates price action, liquidity, positioning, volatility, market structure, and scheduled events to model how the market may develop over the selected timeframe.
+Quant is currently in beta, with early access available through GitHub. During this phase, we're focusing on calculation stability and consistent behavior across different market environments.
 
 ## Install
-### Requirements
 
-- TradingView Desktop
-- Windows
-- Internet connection
-  
 ### 1. Open Command Prompt
 Press **Win + R**, type `cmd`, press **Enter**.
 
