@@ -30,21 +30,6 @@ If TradingView was open during installation, restart it to finish setup. The Qua
 
 ----
 
-## Changelog
-
-- Added scheduled economic releases to scenario calculations.
-- Changed how historical data loads when switching timeframes.
-- Fixed calculations carrying over after switching symbols.
-- Added validation for missing or delayed market data.
-- Corrected volatility during sharp price moves.
-- Liquidity now uses available market depth data.
-- Fixed positioning errors on instruments with limited history.
-- Removed redundant recalculation on market data updates.
-- Fixed delayed chart updates after periods of low activity.
-- Corrected handling of incomplete candles and partially loaded charts.
-- Fixed data sync after temporary connection drops.
-- Fixed scenario lines staying visible after removing the indicator.
-- Fixed duplicate scenario plots after reloading a chart.
   
 ## Contributors
 
