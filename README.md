@@ -3,9 +3,9 @@
   <a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="quant-logo.jpg" alt="TradingView" width="738"></a>
 </p>
 <p align="center">
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square&logo=tradingview" alt="version"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square&logo=opensourceinitiative" alt="license"></a>
-<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square&logo=github" alt="beta users"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/version-2.9.5%20beta-blue?style=flat-square" alt="version"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="license"></a>
+<a href="https://github.com/TradingView-Library/Quant-Indicator/blob/master/README.md#install"><img src="https://img.shields.io/badge/beta%20users-7.4k-brightgreen?style=flat-square" alt="beta users"></a>
 </p>
 
 Quant is our first indicator built on a machine learning model. You pick an asset and a timeframe, and the model analyzes the chart, weighs the known upcoming events, and marks where price is most likely to head next, with the signals behind it shown alongside.
