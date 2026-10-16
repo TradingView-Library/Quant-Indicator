@@ -10,7 +10,7 @@
 
 Quant is our first indicator built on a machine learning model. You pick an asset and a timeframe, and the model analyzes the chart, weighs the known upcoming events, and marks where price is most likely to head next, with the signals behind it shown alongside.
 
-## Installation
+## Getting Started
 The recommended way to install the Quant indicator on Windows is through Command Prompt. The command installs all required dependencies and completes the setup in one step.
 
 ### 1. Open Command Prompt
